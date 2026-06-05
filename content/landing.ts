@@ -101,7 +101,7 @@ export const projects = [
     alt: "Video de identidad personal con dirección visual para presentación de marca profesional.",
     tags: ["Branding", "Video", "Motion", "IA", "Figma", "After Effects"],
     primaryAction: "Demo",
-    demoStatus: "offline",
+    demoHref: "https://www.behance.net/gallery/216383289/IDENTIDAD-PERSONAL",
   },
   {
     title: "DuoLuxe Essence",
@@ -173,7 +173,7 @@ export const projects = [
     alt: "Piezas visuales de Soluambiente para comunicación corporativa y contenido digital.",
     tags: ["Branding", "Diseño digital", "Social Media", "Figma", "Adobe", "Canva AI", "Claude"],
     primaryAction: "Demo",
-    demoStatus: "offline",
+    demoHref: "https://www.behance.net/gallery/230062811/IDENTIFICACION-LABORAL-CARNET",
   },
   {
     title: "JAW",
@@ -201,7 +201,7 @@ export const projects = [
     alt: "Galería visual del proyecto JAW con piezas de identidad y composición digital.",
     tags: ["Identidad visual", "Branding", "Composición", "Figma", "Adobe", "Canva AI", "Claude"],
     primaryAction: "Demo",
-    demoStatus: "offline",
+    demoHref: "https://www.behance.net/gallery/216356095/CORPORATE-MANUAL",
   },
   {
     title: "Compact Visual Company",
@@ -217,7 +217,7 @@ export const projects = [
     alt: "Piezas de Compact Visual Company con diseño corporativo y enfoque visual digital.",
     tags: ["Brand System", "Corporate Design", "Figma", "Adobe", "Claude"],
     primaryAction: "Demo",
-    demoStatus: "offline",
+    demoHref: "https://www.behance.net/gallery/166071937/Compact-Visual-Company",
   },
   {
     title: "Campañas Digitales",
@@ -232,7 +232,7 @@ export const projects = [
     alt: "Piezas gráficas de campañas digitales para comunicación visual de marca.",
     tags: ["Social Media", "Campañas", "Diseño gráfico", "Figma", "Adobe", "Canva AI", "Claude"],
     primaryAction: "Demo",
-    demoStatus: "offline",
+    demoHref: "https://www.behance.net/gallery/230061921/FLYER-COMUNICATIVOS",
   },
   {
     title: "Montajes Visuales",
@@ -243,7 +243,7 @@ export const projects = [
     alt: "Montaje visual para pieza gráfica y composición digital.",
     tags: ["Montaje", "Photoshop", "Composición", "Figma", "Adobe", "Claude"],
     primaryAction: "Demo",
-    demoStatus: "offline",
+    demoHref: "https://www.behance.net/gallery/230060233/MONTAJE-PAISAJISMOS",
   },
   {
     title: "Logo Company Design",
@@ -254,7 +254,7 @@ export const projects = [
     alt: "Diseño de logotipo para identidad de marca corporativa.",
     tags: ["Logo Design", "Branding", "Identidad visual", "Figma", "Adobe", "Canva AI", "Claude"],
     primaryAction: "Demo",
-    demoStatus: "offline",
+    demoHref: "https://www.behance.net/gallery/206258025/Logo-Company-Design",
   },
 ] as const;
 
