@@ -8,8 +8,8 @@ export const navItems = [
 ] as const;
 
 export const externalLinks = {
-  github: "https://github.com/alexanderbeleno16",
-  githubRepositories: "https://github.com/alexanderbeleno16?tab=repositories",
+  github: "https://github.com/jostindavidjr",
+  githubRepositories: "https://github.com/jostindavidjr?tab=repositories",
   behance: "https://www.behance.net/jostindavidjr",
   linkedin: "https://www.linkedin.com/in/jostin-beleno/",
   cv: "/cv/CV%20-%20Jostin%20Bele%C3%B1o%20-%20es.pdf",

@@ -1,11 +1,11 @@
-# 🚀 Portafolio — Alexander Beleño
+# 🚀 Portafolio — Jostin Beleño
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=nextdotjs)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=111)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vercel](https://img.shields.io/badge/Deploy-Vercel-000?logo=vercel)](https://vercel.com/)
 
-Portafolio profesional de **Alexander Beleño**, ingeniero de sistemas enfocado en arquitectura escalable, automatización con IA, productos web modernos y despliegues robustos.
+Portafolio profesional de **Jostin Beleño**, ingeniero de sistemas enfocado en arquitectura escalable, automatización con IA, productos web modernos y despliegues robustos.
 
 ## ✨ Qué muestra
 
@@ -20,7 +20,7 @@ Portafolio profesional de **Alexander Beleño**, ingeniero de sistemas enfocado 
 
 | Canal | Link |
 |-------|------|
-| 🐙 GitHub | [alexanderbeleno16](https://github.com/alexanderbeleno16) |
+| 🐙 GitHub | [jostindavidjr](https://github.com/jostindavidjr) |
 | 💼 LinkedIn | [Jostin Beleño](https://www.linkedin.com/in/jostin-beleno/) |
 | 📄 CV | [`/cv/CV%20-%20Jostin%20Bele%C3%B1o%20-%20es.pdf`](/cv/CV%20-%20Jostin%20Bele%C3%B1o%20-%20es.pdf) |
 
