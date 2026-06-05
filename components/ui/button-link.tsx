@@ -1,0 +1,67 @@
+"use client";
+
+import Link from "next/link";
+import type { HTMLAttributeAnchorTarget, MouseEvent, ReactNode } from "react";
+
+import { cn } from "@/lib/cn";
+
+type ButtonLinkProps = {
+  href: string;
+  children: ReactNode;
+  className?: string;
+  variant?: "primary" | "secondary" | "ghost";
+  ariaLabel?: string;
+  target?: HTMLAttributeAnchorTarget;
+  rel?: string;
+};
+
+const variants = {
+  primary:
+    "bg-secondary-container text-white shadow-[0_0_0_rgba(59,130,246,0)] hover:-translate-y-0.5 hover:shadow-[0_0_34px_rgba(83,112,255,0.35)]",
+  secondary:
+    "border border-white/15 text-on-surface hover:-translate-y-0.5 hover:border-[var(--accent-gold)]/35 hover:bg-white/[0.06]",
+  ghost: "text-tertiary hover:text-white",
+};
+
+export function ButtonLink({
+  href,
+  children,
+  className,
+  variant = "primary",
+  ariaLabel,
+  target,
+  rel,
+}: ButtonLinkProps) {
+  const handleClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    if (!href.startsWith("#") || href.length <= 1 || target) {
+      return;
+    }
+
+    const targetElement = document.getElementById(decodeURIComponent(href.slice(1)));
+
+    if (!targetElement) {
+      return;
+    }
+
+    event.preventDefault();
+    targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
+    window.history.replaceState(null, "", href);
+  };
+
+  return (
+    <Link
+      href={href}
+      onClick={handleClick}
+      aria-label={ariaLabel}
+      target={target}
+      rel={target === "_blank" ? (rel ?? "noopener noreferrer") : rel}
+      className={cn(
+        "label-caps inline-flex min-h-12 items-center justify-center rounded-xl px-7 transition duration-300 will-change-transform focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-tertiary",
+        variants[variant],
+        className,
+      )}
+    >
+      {children}
+    </Link>
+  );
+}
