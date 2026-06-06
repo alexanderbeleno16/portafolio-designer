@@ -12,7 +12,7 @@ export const externalLinks = {
   githubRepositories: "https://github.com/jostindavidjr?tab=repositories",
   behance: "https://www.behance.net/jostindavidjr",
   linkedin: "https://www.linkedin.com/in/jostin-beleno/",
-  cv: "/cv/CV%20-%20Jostin%20Bele%C3%B1o%20-%20es.pdf",
+  cv: "https://drive.google.com/file/d/1yTJ9BkehPp_k1K26oyGq7YO2M-n5TkA7/view?usp=drive_link",
 } as const;
 
 export const contact = {
